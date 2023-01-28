@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:local_data_app/screens/second_screen.dart';
+import 'package:local_data_app/screens/data_pass/second_screen.dart';
 
 class FirstScreen extends StatefulWidget {
   const FirstScreen({Key? key}) : super(key: key);
@@ -30,6 +30,7 @@ class _FirstScreenState extends State<FirstScreen> {
               onPressed: () {
                 // data = await Navigator.push(
                 //   context,
+
                 //   MaterialPageRoute(
                 //     builder: (context) => const SecondScreen(),
                 //   ),

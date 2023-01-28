@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:local_data_app/screens/first_screen.dart';
+import 'package:local_data_app/screens/shared_preferences/local_storage_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const FirstScreen(),
+      home: const LocalStorageScreen(),
     );
   }
 }
