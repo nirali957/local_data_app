@@ -17,7 +17,6 @@ class _LocalStorageSecondScreenState extends State<LocalStorageSecondScreen> {
   void initState() {
     // TODO: implement initState
     getInstanceData();
-
     super.initState();
   }
 
